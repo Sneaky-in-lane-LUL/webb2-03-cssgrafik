@@ -1,0 +1,23 @@
+{
+  "name": "webweu02",
+  "version": "1.0.0",
+  "description": "tyler1 will be free in 2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sneaky-in-lane-LUL/webb2-03-cssgrafik.git"
+  },
+  "author": "Erik Werkelin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sneaky-in-lane-LUL//webb2-03-cssgrafik/issues"
+  },
+  "homepage": "https://github.com/Sneaky-in-lane-LUL//webb2-03-cssgrafik#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
