@@ -1,0 +1,22 @@
+.flagga {
+  position: relative;
+  width: 800px;
+  height: 500px;
+  background-color: #006AA7;
+  margin: auto; }
+  .flagga::before {
+    content: "";
+    height: 20%;
+    width: 100%;
+    background-color: #FECC00;
+    position: absolute;
+    top: 40%;
+    left: 0%; }
+  .flagga::after {
+    content: "";
+    width: 12.5%;
+    height: 100%;
+    position: absolute;
+    background-color: #FECC00;
+    left: 31.25%;
+    top: 0; }
