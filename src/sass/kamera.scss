@@ -1,0 +1,108 @@
+body{
+    background: #5E5B52;
+    height: 100vh;
+
+    .camera{
+        margin: auto;
+        margin-top: 8rem;
+        width: 700px;
+        height: 400px;
+        position: relative;
+        border-radius: 5%;
+        background: linear-gradient(
+            #E6E8E5 0%,
+            #E6E8E5 30%,
+            #BB3430 30%,
+            #BB3430 70%,
+            #E6E8E5 70%,
+            #E6E8E5 100%
+        );
+
+        .camera-button{
+            border-radius: 15px 15px 0px 0px;
+            background: #49101C;
+            width: 60px;
+            height: 30px;
+            position: absolute;
+            top: -20px;
+            left: 40px;
+            z-index: -1;
+        }
+
+        .camera-flash{
+            border-radius: 50%;
+            border: 3px solid #CECDCB;
+            background: #B0DFE5;
+            right: 7%;
+            top: 8%;
+            position: absolute;
+            width: 50px;
+            height: 50px;
+        }
+
+        .camera-lens-white{
+            border-radius: 50%;
+            background: white;
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            left: 250px;
+            top: 100px;
+
+            .camera-lens-outer-black{
+                border-radius: 50%;
+                background: #393939;
+                width: 180px;
+                height: 180px;
+                position: absolute;
+                left: 10px;
+                top: 10px;
+
+                .camera-lens-light-gray{
+                    border-radius: 50%;
+                    background: linear-gradient(
+                    #545454,
+                    #545454 50%,
+                    #6F6F6F 50%,
+                    #6F6F6F);
+                    width: 160px;
+                    height: 160px;
+                    position: absolute;
+                    left: 10px;
+                    top: 10px;
+                    transform: rotate(-45deg);
+
+                    
+                    .camera-lens-dark-gray{
+                        border-radius: 50%;
+                        background: linear-gradient(
+                            #4D4D4D,
+                            #4D4D4D 50%,
+                            #606060 50%,
+                            #606060);
+                            width: 140px;
+                            height: 140px;
+                            position: absolute;
+                            left: 10px;
+                            top: 10px;
+                            
+                            .camera-lens-inner-black{
+                                border-radius: 50%;
+                                background: linear-gradient(
+                                #353535,
+                                #353535 50%,
+                                #333333 50%,
+                                #333333);
+                                width: 100px;
+                                height: 100px;
+                                position: absolute;
+                                left: 20px;
+                                top: 20px;
+                            }
+                    }
+                }
+            }
+        }
+        
+    }
+}
