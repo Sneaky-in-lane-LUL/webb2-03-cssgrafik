@@ -59,12 +59,21 @@ body{
             }
             
             .square-white{
-                height: 150px;
-                width: 150px;
+                background-color: #EBEBEB;
+                height: 200px;
+                width: 200px;
+                position: absolute;
+                top: 142px;
+                left: 0px;
+                transform: rotate(45deg);
 
                 .square-black{
-                    height: 150px;
-                    width: 150px;
+                    background-color: #1F1722;
+                    height: 200px;
+                    width: 200px;
+                    position: absolute;
+                    left: -40px;
+                    top: 40px;
 
                 }
             }
